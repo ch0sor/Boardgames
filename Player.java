@@ -27,4 +27,19 @@ public class Player{
         this.round++;
     }
 
+    public String setName(String name) {
+        this.name = name;
+        return name;
+    }
+
+    public String setSymbol(Symbol symbol){
+        this.symbol = symbol;
+        return symbol;
+    }
+
+    public int setRound(int round) {
+        this.round = round;
+        return round;
+    }
+
 }
