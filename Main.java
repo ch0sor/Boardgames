@@ -2,7 +2,18 @@ public class Main {
     public static void main(String[] args) {
         
 
-        //TADAAAA :-)
+        /*
+
+        Call on gameHeader
+        Call on welcomeMessage
+
+        menuChoice (call om method for the menu with choices)
+
+        
+
+
+
+        */
 
 
 
