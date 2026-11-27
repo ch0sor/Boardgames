@@ -5,9 +5,10 @@ public class Main {
         /*
 
         Call on gameHeader
-        Call on welcomeMessage
+        Call on welcomeMessage and/or
+        menuChoice
 
-        menuChoice (call om method for the menu with choices)
+        
 
         
 
