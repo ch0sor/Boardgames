@@ -1,7 +1,9 @@
 abstract class Board {
-    //Board is suppose to be a super class for other multidimantional arrays
+    // Rows and columns of the board
     int arrayRows;
     int arrayColumn;
+
+    // 2D / Multi-dimensional array to represent the board
     String[][] boardSize = new String[arrayRows][arrayColumn];
 
     Board(int arrayRows, int arrayColumn) {
@@ -9,5 +11,6 @@ abstract class Board {
         this.arrayColumn = arrayColumn;
     }
 
+    // Abstract method to be implemented by subclasses for initializing the board state
     abstract void startingBoardState();
 }
