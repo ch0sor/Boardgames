@@ -4,7 +4,12 @@ public class Tictacboard extends Board{
     }
 
     @Override 
-    void acceptedBoardSymbols() {
+    void startingBoardState() {
+        for(int i = 0; i < arrayRows; i++) {
+            for(int j = 0; j < arrayColumn; j++) {
+                boardSize[i][j] = " ";
+            }
+        }
         
     }
 }
