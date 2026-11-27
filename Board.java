@@ -9,5 +9,5 @@ abstract class Board {
         this.arrayLenght = arrayLenght;
     }
 
-    abstract void acceptedBoardSymblos();
+    abstract void acceptedBoardSymbols();
 }
